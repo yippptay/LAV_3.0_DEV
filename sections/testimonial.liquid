@@ -1,0 +1,90 @@
+<div class="testimonial" style="background-image: url('{{ section.settings.backimage | img_url: '270x366' }}');">
+    {% if section.blocks.size > 0 %}
+        <div class="testi rless">
+            {% for block in section.blocks %}
+                <div class="cless col-12">
+                    <div class="wbtestisub text-center">
+                        <ul>
+                            <li><img loading="lazy" class="img-fluid max-auto" src="{{ block.settings.image | img_url: '80x80' }}" alt="{{ block.settings.image.alt | escape }}"></li>
+                            <li>
+                                {% if block.settings.quote != blank %}
+                                    <p>{{ block.settings.quote }}</p>
+                                {% endif %}
+                                {% if block.settings.author != blank %}
+                                    <h4>{{ block.settings.author }}</h4>
+                                {% endif %}
+                                {% if block.settings.author != blank %}
+                                    <h5>{{ block.settings.developer }}</h5>
+                                {% endif %}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+</div>
+{% schema %}
+  {
+    "name": "Testimonials",
+    "class": "index-section",
+    "max_blocks": 9,
+    "settings": [
+        {
+          "type": "image_picker",
+          "id": "backimage",
+          "label": "Background Image"
+        }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image",
+        "type": "quote",
+        "name": "Testimonial",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "richtext",
+            "id": "quote",
+            "label": "Text",
+            "default": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>"
+          },
+          {
+            "type": "text",
+            "id": "author",
+            "label": "Author",
+            "default": "Author's name"
+          },
+          {
+            "type": "text",
+            "id": "developer",
+            "label": "field",
+            "default": "developer"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Testimonials",
+        "category": "Text",
+        "blocks": [
+          {
+            "type": "quote"
+          },
+          {
+            "type": "quote"
+          },
+          {
+            "type": "quote"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,180 @@
+<div class="product-category">
+    <div class="">
+        <h2 class="heading text-left"><span>{{ section.settings.m_title }}</span></h2>
+            <div class="row procatbgm">
+                <button type="button" class="toggle collapsed mycustbtm" data-toggle="collapse" data-target="#catprod1"></button>
+                <div class="mycustcatname col-xl-3 col-md-4 col-sm-4 col-12 collapse" id="catprod1">
+                    <div class="procatbg">
+                    <div class="pctab">
+                        <ul class="ptabbr nav nav-tabs">
+                            {%- for block in section.blocks -%}
+                                <li class="nav-item tab-menu">
+                                    <a class="nav-link {% if forloop.first %}active{% endif %}" data-toggle="tab" href="#wbprodtab-{{block.id}}">
+                                        <span>{{ block.settings.cat_name }}</span>{% render 'icon-arrow-right' %}
+                                    </a>
+                                </li>
+                            {%- endfor -%}
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+                <div class="col-xl-9 col-md-8 col-sm-8 col-12 ctab">
+                   <div class="tab-content rless">
+                    {%- for block in section.blocks -%}
+                    {%- assign collection = collections[block.settings.collection]  -%}
+                    {%- assign limit = section.settings.limit -%}
+                        <div class="tab-pane fade {% if forloop.first %}show active{% endif %}" id="wbprodtab-{{block.id}}" >
+
+                            <div class="owl-procat">
+                            {% assign num_row = section.settings.num_topr | times: 1 %}
+                            {% assign temp = 0 %}
+                                {% for product in collection.products %}
+                                    {% if temp == 0 %}<ul class="twopro">{% endif %}
+                                        <li class="grid__item col-12 cless list-unstyled">
+                                            {% render 'product-card-custom',
+                                            product_card_product: product,
+                                            block_id: block.id,
+                                            media_size: section.settings.image_ratio,
+                                            show_rating: section.settings.show_rating,
+                                            picker_type: section.settings.picker_type,
+                                            show_variants: section.settings.show_variants,
+                                            show_colorswatch: section.settings.show_colorswatch,
+                                            display_product_type: section.settings.display_product_type  %}
+                                        </li>
+                                    {% assign temp = temp | plus: 1 %}
+                                    {% if temp == num_row %}</ul>{% assign temp = 0 %}{% endif %} 
+                                {% else %}
+                                    <div>{{ 'wbcustomlabel.wballtext.catpro' | t }}</div>
+                                {% endfor %} 
+                            </div>
+                        </div>
+                    {%- endfor -%}
+                    </div> 
+                </div>
+                
+            </div>
+
+            
+    </div>
+</div>
+
+{% schema %}  
+{
+"name": "Product Category",
+"class": "spaced-section",
+"max_blocks": 8,
+"settings": [
+    {
+        "type": "text",
+        "id": "m_title",
+        "label": "Top Heading",
+        "default": "Categories product"
+    },  
+    {
+        "type": "range",
+        "id": "num_topr",
+        "label": "Rows",
+        "min": 1,
+        "max": 5,
+        "step": 1,
+        "default": 2
+    },
+    {
+      "type": "header",
+      "content": "t:sections.featured-collection.settings.header.content"
+    },
+    {
+      "type": "select",
+      "id": "image_ratio",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "t:sections.featured-collection.settings.image_ratio.options__1.label"
+        },
+        {
+          "value": "portrait",
+          "label": "t:sections.featured-collection.settings.image_ratio.options__2.label"
+        },
+        {
+          "value": "square",
+          "label": "t:sections.featured-collection.settings.image_ratio.options__3.label"
+        }
+      ],
+      "default": "adapt",
+      "label": "t:sections.featured-collection.settings.image_ratio.label"
+    },
+    {
+        "type": "checkbox",
+        "id": "display_product_type",
+        "label": "Display Product Type?",
+        "default": true
+    },
+    {
+        "type": "checkbox",
+        "id": "show_rating",
+        "default": false,
+        "label": "t:sections.featured-collection.settings.show_rating.label",
+        "info": "t:sections.featured-collection.settings.show_rating.info"
+    },
+    {
+      "type": "header",
+      "content": "Variants"
+    },    
+    {
+      "type": "checkbox",
+      "id": "show_variants",
+      "default": true,
+      "label": "Show color/size variants"
+    },
+    {
+      "type": "select",
+      "id": "picker_type",
+      "options": [
+        {
+          "value": "dropdown",
+          "label": "t:sections.main-product.blocks.variant_picker.settings.picker_type.options__1.label"
+        },
+        {
+          "value": "button",
+          "label": "t:sections.main-product.blocks.variant_picker.settings.picker_type.options__2.label"
+        }
+      ],
+      "default": "button",
+      "label": "t:sections.main-product.blocks.variant_picker.settings.picker_type.label"
+    },
+    {
+        "type": "checkbox",
+        "id": "show_colorswatch",
+        "default": true,
+        "label": "Enable color swatches",
+        "info": "Type set to be 'Pills'. [Learn how to setup swatches](https://www.webibazaar.com/shopify/viola-doc/home#colorswatch)"
+    }
+],
+    "blocks": [
+    {
+    "type": "collection",
+    "name": "Collections",
+    "settings": [
+        {
+            "id": "cat_name",
+            "type": "text",
+            "label": "Category name"
+        },
+        {
+            "id": "collection",
+            "type": "collection",
+            "label": "Collection"
+        }
+    ]
+    }
+],
+"presets": [
+    {
+        "name": "Product Category",
+        "category": "Collection",
+        "blocks": [ ]
+    }
+]
+}
+{% endschema %}

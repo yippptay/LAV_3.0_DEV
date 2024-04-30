@@ -1,0 +1,613 @@
+{
+  "current": {
+    "colors_accent_1": "#fd6c1e",
+    "gradient_accent_1": "",
+    "colors_solid_button_labels": "#ffffff",
+    "colors_accent_2": "#000000",
+    "gradient_accent_2": "",
+    "wb_hovercolor_button_text": "#ffffff",
+    "wbmaincolors_text": "#fd6c1e",
+    "colors_text": "#000000",
+    "wbborder_color": "#e4e4e4",
+    "colors_background_1": "#ffffff",
+    "gradient_background_1": "",
+    "wbprodct_background": "#ffffff",
+    "type_base_font": "Google+Rubik",
+    "type_header_base_size": 30,
+    "type_base_size": 14,
+    "social_twitter_link": "#",
+    "social_facebook_link": "#",
+    "social_pinterest_link": "#",
+    "social_instagram_link": "#",
+    "social_tumblr_link": "",
+    "predictive_search_enabled": true,
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "currency_code_enabled": true,
+    "show_variants": true,
+    "show_rating": true,
+    "wbboxed": false,
+    "wbenblertl": false,
+    "timer_text": "hurry up! <p> offer ends in:<\/p>",
+    "badge_toggle": true,
+    "new_products_period": "200",
+    "checkout_logo_image": "shopify:\/\/shop_images\/clogo.png",
+    "checkout_accent_color": "#fd6c1e",
+    "checkout_button_color": "#fd6c1e",
+    "colors_outline_button_labels": "#121212",
+    "sale_badge_color_scheme": "accent-1",
+    "sold_out_badge_color_scheme": "inverse",
+    "accent_icons": "text",
+    "colors_background_2": "#ffffff",
+    "page_width": "1600",
+    "type_header_font": "nunito_n4",
+    "type_body_font": "nunito_n4",
+    "heading_scale": 40,
+    "body_scale": 100,
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "b27273be-a1a6-41ad-8a8c-57b468a035a7": {
+            "type": "announcement",
+            "settings": {
+              "text": "free shipping world wide order over on $199.00"
+            }
+          }
+        },
+        "block_order": [
+          "b27273be-a1a6-41ad-8a8c-57b468a035a7"
+        ],
+        "settings": {
+          "popup_product": true,
+          "topbg": "#33373e",
+          "toptext": "#ffffff"
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "topbg": "#33373e",
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "logo": "shopify:\/\/shop_images\/logo_a75e33c7-a6d2-4986-b465-16dab590546d.png",
+          "logo_width": 170,
+          "head_no": "(+91) 012 1544 489"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "86ad1f51-5573-43ba-a9af-b6bbba8cd82d": {
+            "type": "link_list",
+            "settings": {
+              "heading": "categories",
+              "menu": "categories"
+            }
+          },
+          "18d23e3d-9175-4eb4-af14-735e6bca5128": {
+            "type": "link_list",
+            "settings": {
+              "heading": "service",
+              "menu": "services"
+            }
+          },
+          "c82b7b59-d2a5-42b3-85a9-3f0ee906df61": {
+            "type": "link_list",
+            "settings": {
+              "heading": "extras",
+              "menu": "extra"
+            }
+          },
+          "48b49417-ce3d-4b02-98e4-530a1d80b8a4": {
+            "type": "textarea",
+            "settings": {
+              "heading": "contact us",
+              "footer_address": "demo store United States.",
+              "footer_contact_no": "0123-456-789",
+              "footer_contact_id": "demo@demo.com"
+            }
+          }
+        },
+        "block_order": [
+          "86ad1f51-5573-43ba-a9af-b6bbba8cd82d",
+          "18d23e3d-9175-4eb4-af14-735e6bca5128",
+          "c82b7b59-d2a5-42b3-85a9-3f0ee906df61",
+          "48b49417-ce3d-4b02-98e4-530a1d80b8a4"
+        ],
+        "settings": {
+          "color_footer_bg": "#33373e",
+          "color_footer_text_heading": "#ffffff",
+          "color_footer_text": "#c8c8c8",
+          "color_news_bg": "#33373e",
+          "newsletter_heading": "JOIN OUR MAILING LIST",
+          "newssub": "Subscribe to our newsletter and get 10% off your first purchase",
+          "enable_playapp": true,
+          "playimg1": "shopify:\/\/shop_images\/a1_131x44_ea4b4f4a-7ab6-4aaa-853c-dc2fef69cb00.png",
+          "playimg2": "shopify:\/\/shop_images\/a2_135x44_f12c6baf-c68c-4a93-936b-1b52848ea2cb.png",
+          "foottext1": "<p><a href=\"\/collections\/bestseller\" title=\"Bestseller\">sofa<\/a><\/p><p><a href=\"\/collections\/featured-product\" title=\"Featured product\">Chair<\/a><\/p><p><a href=\"\/collections\" title=\"All collections\">dining table<\/a><\/p><p><a href=\"\/collections\/onsale\" title=\"Onsale\">living room<\/a><\/p><p><a href=\"\/pages\/contact-us\" title=\"Contact us\">table lamp<\/a><\/p><p><a href=\"\/pages\/information-2\" title=\"Information\">night stand<\/a><\/p><p><a href=\"\/products\/proin-ac-nisi-in-augue-viverra-tempus-vel-ac-nulla\" title=\"Proin ac nisi in augue viverra tempus vel ac nulla\">computer desk<\/a><\/p><p><a href=\"\/products\/copy-of-sed-id-tellus-non-quam-sodales-interdum-vitae\" title=\"Suspendisse potent sodales interdum vitae\">bar table<\/a><\/p><p><a href=\"\/collections\/frontpage\" title=\"New product\">pillow<\/a><\/p><p><a href=\"\/collections\/onsale\" title=\"Onsale\">radio<\/a><\/p><p><a href=\"\/products\/class-aptent-taciti-sociosqu-ad-litora-torquent\" title=\"Class aptent taciti sociosqu ad litora torquent\">clock<\/a><\/p><p><a href=\"\/products\/curabitur-elementum-gravida-libero\" title=\"Curabitur elementum gravida libero\">bad room<\/a><\/p><p><a href=\"\/products\/proin-ac-nisi-in-augue-viverra-tempus-vel-ac-nulla\" title=\"Proin ac nisi in augue viverra tempus vel ac nulla\">stool<\/a><\/p><p><a href=\"\/products\/scelerisque-vel-viverra-a-tincidunt-nec-libero\" title=\"scelerisque vel viverra a, tincidunt nec libero\">television<\/a><\/p><p><a href=\"\/collections\/featured-product\" title=\"Featured product\">Chair<\/a><\/p><p><a href=\"\/products\/etiam-viverra-leo-mauris-vitae-cursus-sem\" title=\"Etiam viverra leo mauris vitae cursus sem\">dining table<\/a><\/p><p><a href=\"\/collections\/onsale\" title=\"Onsale\">living room<\/a><\/p><p><a href=\"\/pages\/contact-us\" title=\"Contact us\">table lamp<\/a><\/p><p><a href=\"\/pages\/information-2\" title=\"Information\">night stand<\/a><\/p><p><a href=\"\/products\/proin-ac-nisi-in-augue-viverra-tempus-vel-ac-nulla\" title=\"Proin ac nisi in augue viverra tempus vel ac nulla\">computer desk<\/a><\/p><p><a href=\"\/products\/copy-of-sed-id-tellus-non-quam-sodales-interdum-vitae\" title=\"Suspendisse potent sodales interdum vitae\">bar table<\/a><\/p><p><a href=\"\/collections\/frontpage\" title=\"New product\">pillow<\/a><\/p>",
+          "payment_enable": true,
+          "fpayment": "Payment",
+          "show_social": true,
+          "fsocial": "Follow Us"
+        }
+      },
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/logo.png",
+          "logo_max_width": 140
+        }
+      },
+      "main-password-footer": {
+        "type": "main-password-footer",
+        "settings": {
+        }
+      },
+      "popup-products": {
+        "type": "popup-products",
+        "settings": {
+          "popup_product": false,
+          "collection": "camera",
+          "show_rating": true,
+          "product_limit": 2
+        }
+      },
+      "popular": {
+        "type": "popular",
+        "settings": {
+          "ms_title": "Popular Products",
+          "rows": 5,
+          "image_ratio": "adapt",
+          "display_product_type": false,
+          "show_rating": true,
+          "collection": "camera"
+        }
+      },
+      "site-nav": {
+        "type": "site-nav",
+        "blocks": {
+          "d710e1d9-9cba-4e05-b642-d3a251450bef": {
+            "type": "link-simple",
+            "settings": {
+              "title": "catalog",
+              "link": "shopify:\/\/collections",
+              "badge_text": "",
+              "bg_color": "#ff0000"
+            }
+          },
+          "a3197027-78a6-486f-b1ad-0087b2f349b4": {
+            "type": "link-simple",
+            "settings": {
+              "title": "table",
+              "link": "shopify:\/\/collections\/camera",
+              "badge_text": "",
+              "bg_color": "#ff0000"
+            }
+          },
+          "20269094-fc20-482c-ae2c-0ffcb58f0e50": {
+            "type": "link-linklist",
+            "settings": {
+              "title": "accessories",
+              "link": "shopify:\/\/collections\/accessories",
+              "badge_text": "",
+              "bg_color": "#ff0000",
+              "links": "accessories"
+            }
+          },
+          "eb14554d-8987-4409-86ef-5e3fc7019981": {
+            "type": "link-4linklists",
+            "settings": {
+              "show_title": false,
+              "title": "sofa",
+              "link": "shopify:\/\/collections\/cosmatic",
+              "badge_text": "",
+              "bg_color": "#ff0000",
+              "image_1": "shopify:\/\/shop_images\/1_b77e467a-b159-43c3-936e-62cd34704857.jpg",
+              "links_1": "designer-sofa",
+              "image_2": "shopify:\/\/shop_images\/2_687b9819-88c0-4625-bff0-4ab23d3df215.jpg",
+              "links_2": "lather-sofa",
+              "image_3": "shopify:\/\/shop_images\/3_21072104-f650-43ca-b96e-69ec86a3ba69.jpg",
+              "links_3": "office-sofa",
+              "image_4": "shopify:\/\/shop_images\/4_a647fb94-1359-4d96-af2d-d4f9951a22b4.jpg",
+              "links_4": "simple-sofa",
+              "align_text": false
+            }
+          },
+          "ee971c4a-a76c-4e27-bedb-0b4d37cff70e": {
+            "type": "link-linklist",
+            "settings": {
+              "title": "shop",
+              "link": "shopify:\/\/collections\/frontpage",
+              "badge_text": "",
+              "bg_color": "#ff0000",
+              "links": "categories"
+            }
+          },
+          "11ff4864-7eca-4c7c-806b-5a371d49d3fb": {
+            "type": "link-simple",
+            "settings": {
+              "title": "camera",
+              "link": "shopify:\/\/collections\/camera",
+              "badge_text": "",
+              "bg_color": "#ff0000"
+            }
+          },
+          "cbb5a07a-b472-46d8-b89a-328ed654ce6c": {
+            "type": "link-simple",
+            "settings": {
+              "title": "cosmatic",
+              "link": "shopify:\/\/collections\/cosmatic",
+              "badge_text": "",
+              "bg_color": "#ff0000"
+            }
+          },
+          "88d7b662-c854-470e-aaa2-90414c5a8975": {
+            "type": "link-simple",
+            "settings": {
+              "title": "electronic",
+              "link": "shopify:\/\/collections\/electronic",
+              "badge_text": "",
+              "bg_color": "#ff0000"
+            }
+          },
+          "9108732e-b795-41d4-a240-fd189c79124d": {
+            "type": "link-simple",
+            "settings": {
+              "title": "furniture",
+              "link": "shopify:\/\/collections\/furniture",
+              "badge_text": "",
+              "bg_color": "#ff0000"
+            }
+          },
+          "a5a11ee5-a29b-4039-b181-92012d174109": {
+            "type": "link-simple",
+            "settings": {
+              "title": "laptop",
+              "link": "shopify:\/\/collections\/laptop",
+              "badge_text": "",
+              "bg_color": "#ff0000"
+            }
+          },
+          "61c456c2-24d1-48c2-92fe-e82d65e9796a": {
+            "type": "link-linklist",
+            "settings": {
+              "title": "phone",
+              "link": "shopify:\/\/collections\/phone",
+              "badge_text": "",
+              "bg_color": "#ff0000",
+              "links": ""
+            }
+          },
+          "9c12e506-5a27-47a2-9ad5-b4982b2c5c57": {
+            "type": "link-simple",
+            "settings": {
+              "title": "smart tv",
+              "link": "shopify:\/\/collections\/smart-tv",
+              "badge_text": "",
+              "bg_color": "#ff0000"
+            }
+          }
+        },
+        "block_order": [
+          "d710e1d9-9cba-4e05-b642-d3a251450bef",
+          "a3197027-78a6-486f-b1ad-0087b2f349b4",
+          "20269094-fc20-482c-ae2c-0ffcb58f0e50",
+          "eb14554d-8987-4409-86ef-5e3fc7019981",
+          "ee971c4a-a76c-4e27-bedb-0b4d37cff70e",
+          "11ff4864-7eca-4c7c-806b-5a371d49d3fb",
+          "cbb5a07a-b472-46d8-b89a-328ed654ce6c",
+          "88d7b662-c854-470e-aaa2-90414c5a8975",
+          "9108732e-b795-41d4-a240-fd189c79124d",
+          "a5a11ee5-a29b-4039-b181-92012d174109",
+          "61c456c2-24d1-48c2-92fe-e82d65e9796a",
+          "9c12e506-5a27-47a2-9ad5-b4982b2c5c57"
+        ],
+        "settings": {
+          "menubg": "#ffffff",
+          "menubgtxt": "#000000",
+          "megamenu_toggle": true
+        }
+      },
+      "cms-menu": {
+        "type": "cms-menu",
+        "settings": {
+          "cms_menu": "<p><a href=\"https:\/\/storego-demo.myshopify.com\/?_ab=0&_fd=0&_sc=1&preview_theme_id=120860606527\" title=\"https:\/\/storego-demo.myshopify.com\/?_ab=0&_fd=0&_sc=1&preview_theme_id=120860606527\">home<\/a><\/p><p><a href=\"\/collections\/bestseller\" title=\"Bestseller\">top product<\/a><\/p><p><a href=\"\/collections\/frontpage\" title=\"Featured Product\">special product<\/a><\/p><p><a href=\"\/blogs\/sub-blog\" title=\"Sub Blog\">blog<\/a><\/p><p><a href=\"\/pages\/about-us\" title=\"About Us\">about us<\/a><\/p><p><a href=\"\/pages\/contact-us\" title=\"Contact Us\">contact us<\/a><\/p>",
+          "ofrtxt": "<p><a href=\"\/collections\/bestseller\" title=\"Bestseller\">GET 20% OFF on selected items<\/a><\/p>"
+        }
+      },
+      "special": {
+        "type": "special",
+        "settings": {
+          "ms_title": "Special Products",
+          "rows": 1,
+          "image_ratio": "adapt",
+          "display_product_type": false,
+          "enable_listdesc": false,
+          "show_rating": true,
+          "show_variants": false,
+          "collection": "peach"
+        }
+      },
+      "leftbanner": {
+        "type": "leftbanner",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/l1.jpg",
+          "link": "shopify:\/\/collections",
+          "storysubtitle": "up to 60% off",
+          "storytitle": "fashion footwear",
+          "btntxt": "Shop now"
+        }
+      },
+      "bestproduct": {
+        "type": "bestproduct",
+        "settings": {
+          "ms_title": "Best Products",
+          "rows": 5,
+          "image_ratio": "adapt",
+          "display_product_type": false,
+          "show_rating": true,
+          "show_variants": false,
+          "collection": "electronic"
+        }
+      },
+      "secondleftbanner": {
+        "type": "secondleftbanner",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/l2.jpg",
+          "link": "shopify:\/\/collections",
+          "storysubtitle": "Up To 50% Off",
+          "storytitle": "New iPhone 11 Pro",
+          "btntxt": "Shop now"
+        }
+      },
+      "featured-blog": {
+        "type": "featured-blog",
+        "settings": {
+          "m_title": "latest blog",
+          "blog": "sub-blog",
+          "show_image": true,
+          "image_height": "adapt",
+          "show_date": false,
+          "show_author": true,
+          "show_desc": true,
+          "show_cmment": false,
+          "show_view_all": true
+        }
+      },
+      "testimonial": {
+        "type": "testimonial",
+        "blocks": {
+          "8e19235b-cfb0-4b08-b96a-9290f3106aa3": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/testi1.png",
+              "quote": "<p>Sed elit quam, iaculis the sed semper sit amet udin vitae nibh. at magna akal semper sema olatiup sema olatiup udin vitae.<\/p>",
+              "author": "ms. bella",
+              "developer": "developer"
+            }
+          },
+          "1d483b6b-4d59-4cc9-b0f5-c7c7d0c604ae": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/testi2.png",
+              "quote": "<p>Sed elit quam, iaculis the sed semper sit amet udin vitae nibh. at magna akal semper sema olatiup sema olatiup udin vitae.<\/p>",
+              "author": "mr. jhon deo",
+              "developer": "developer"
+            }
+          },
+          "78b13ffb-2f84-4602-8f94-45632ee3331e": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/testi3.png",
+              "quote": "<p>Sed elit quam, iaculis the sed semper sit amet udin vitae nibh. at magna akal semper sema olatiup sema olatiup udin vitae.<\/p>",
+              "author": "larry kinda",
+              "developer": "developer"
+            }
+          }
+        },
+        "block_order": [
+          "8e19235b-cfb0-4b08-b96a-9290f3106aa3",
+          "1d483b6b-4d59-4cc9-b0f5-c7c7d0c604ae",
+          "78b13ffb-2f84-4602-8f94-45632ee3331e"
+        ],
+        "settings": {
+          "backimage": "shopify:\/\/shop_images\/testimonial-bg.jpg"
+        }
+      },
+      "logo-bar": {
+        "type": "logo-bar",
+        "blocks": {
+          "bb9adfb6-e6fc-4fc5-8ebd-e8488d769102": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/menufacture-5_b725de99-b747-466e-8c7f-146d041d5685.png",
+              "link": "shopify:\/\/collections"
+            }
+          },
+          "ff03b0e2-7aed-4170-9a57-d6f8358b835e": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/menufacture-4_ca1716a0-8d0d-4dea-a88d-6e5eedf2ac09.png",
+              "link": "shopify:\/\/collections"
+            }
+          },
+          "b155919d-a292-4132-8f49-1611474a7326": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/brand8.png",
+              "link": "shopify:\/\/collections"
+            }
+          },
+          "265b3010-df31-41d1-bd14-3aaa0b81f0bc": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/brand7_2436c357-e48e-4ca3-b9f4-d40a214fb1c2.png",
+              "link": "shopify:\/\/collections"
+            }
+          },
+          "9b7cc5d6-5286-4d7c-81ca-4974fedcc91c": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/brand6.png",
+              "link": "shopify:\/\/collections"
+            }
+          },
+          "efab77a4-94a0-4794-9ba6-59c50f2cc01c": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/brand5.png",
+              "link": "shopify:\/\/collections"
+            }
+          },
+          "7d8066f9-6ef8-4470-b776-71fad8645704": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/brand4_02a8b877-e192-4a99-b7b4-fdaf7bdd74c0.png",
+              "link": "shopify:\/\/collections"
+            }
+          },
+          "e7840e57-7a92-4ff5-b69c-ac85a6f1562b": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/brand8.png",
+              "link": "shopify:\/\/collections"
+            }
+          },
+          "6756933b-085f-4c1a-95f8-a08798944d7c": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/brand3_fc7234e8-d28e-4b9d-a410-3772a7f713d9.png",
+              "link": "shopify:\/\/collections"
+            }
+          },
+          "23d20113-b094-4b44-a715-8e4c08bff8be": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/menufacture-4_ca1716a0-8d0d-4dea-a88d-6e5eedf2ac09.png",
+              "link": "shopify:\/\/collections"
+            }
+          }
+        },
+        "block_order": [
+          "bb9adfb6-e6fc-4fc5-8ebd-e8488d769102",
+          "ff03b0e2-7aed-4170-9a57-d6f8358b835e",
+          "b155919d-a292-4132-8f49-1611474a7326",
+          "265b3010-df31-41d1-bd14-3aaa0b81f0bc",
+          "9b7cc5d6-5286-4d7c-81ca-4974fedcc91c",
+          "efab77a4-94a0-4794-9ba6-59c50f2cc01c",
+          "7d8066f9-6ef8-4470-b776-71fad8645704",
+          "e7840e57-7a92-4ff5-b69c-ac85a6f1562b",
+          "6756933b-085f-4c1a-95f8-a08798944d7c",
+          "23d20113-b094-4b44-a715-8e4c08bff8be"
+        ],
+        "settings": {
+        }
+      },
+      "service": {
+        "type": "service",
+        "settings": {
+          "s_title": true,
+          "icon1": "phone",
+          "checkiconimage1": true,
+          "header_gift": "24 x 7 free Support",
+          "header_gift1": "online support 24 \/ 7",
+          "sa_title": true,
+          "icon2": "shipping",
+          "checkiconimage2": true,
+          "header_pay": "Worldwide Shipping",
+          "header_pay1": "On Order Over $99",
+          "sb_title": true,
+          "icon3": "moneyback",
+          "checkiconimage3": true,
+          "header_support": "Money gaurantee",
+          "header_support1": "100% secure payment",
+          "sc_title": true,
+          "icon4": "gift",
+          "checkiconimage4": true,
+          "header_ship": "Win $100 To Voucher",
+          "header_ship1": "Give The Perfect Gift"
+        }
+      },
+      "left-tag": {
+        "type": "left-tag",
+        "settings": {
+          "title": "Product Tag",
+          "text": "<p><a href=\"\/collections\/best-product\" title=\"Best Product\">sofa<\/a><\/p><p><a href=\"\/collections\" title=\"All collections\">chair<\/a><\/p><p><a href=\"\/collections\/frontpage\" title=\"Featured Product\">table<\/a><\/p><p><a href=\"\/collections\/special-products\" title=\"New Product\">living room<\/a><\/p><p><a href=\"\/collections\/latest-product\" title=\"latest product\">lamp<\/a><\/p><p><a href=\"\/collections\/accessories\" title=\"accessories\">night stand<\/a><\/p><p><a href=\"\/collections\/best-product\" title=\"Best Product\">computer<\/a><\/p>"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  },
+  "presets": {
+    "Default": {
+      "colors_solid_button_labels": "#FFFFFF",
+      "colors_accent_1": "#121212",
+      "colors_accent_2": "#334FB4",
+      "colors_text": "#121212",
+      "colors_outline_button_labels": "#121212",
+      "colors_background_1": "#FFFFFF",
+      "colors_background_2": "#F3F3F3",
+      "type_header_font": "assistant_n4",
+      "type_body_font": "assistant_n4",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "announcement-bar-0": {
+              "type": "announcement",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "announcement-bar-0"
+          ],
+          "settings": {
+            "topbg": "#88b121",
+            "toptext": "#fff"
+          }
+        }
+      }
+    },
+    "Craft": {
+      "colors_solid_button_labels": "#EFECEC",
+      "colors_accent_1": "#2A332F",
+      "colors_accent_2": "#476154",
+      "colors_text": "#1C1A1A",
+      "colors_outline_button_labels": "#7B8382",
+      "colors_background_1": "#EFECEC",
+      "colors_background_2": "#C1BCAE",
+      "type_header_font": "americana_n4",
+      "type_body_font": "quattrocento_sans_n4",
+      "sections": {
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "menu": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "menu",
+            "text"
+          ],
+          "settings": {
+            "color_footer_bg": "#e7e7e7",
+            "color_footer_text_heading": "#000",
+            "color_footer_text": "#9E9E9E",
+            "color_news_bg": "#f5f5f5"
+          }
+        }
+      }
+    }
+  }
+}

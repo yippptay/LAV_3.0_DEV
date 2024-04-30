@@ -1,0 +1,53 @@
+@charset "UTF-8";
+.wbhdtop,.wbslideshow .slider-counter__link--active.slider-counter__link--dots .dot {
+	background: #ad0202 !important;
+}
+#megamenu li.wbmenul_1 a.wbmenul1_link:hover,.copyright__content a:hover,.localization-selector.link:hover,.wbwish:hover,
+.footblink p a:hover,.footer .footer-collapse li a:hover,.ptabbr li a.active, .ptabbr li a:hover {
+	color: #ad0202 !important;
+}
+.wbslideshow .slider-counter__link--dots .dot, .wbslideshow .slider-counter__link--dots:not(.slider-counter__link--active):hover .dot {
+	border: 1px solid #ad0202 !important;
+}
+.product-form .wbquickv:hover,.footer-block--newsletter .row,.wbwishcount,.slider-button:not([disabled]):hover,.left-tag-cms p a:hover,
+.pagination__item.pagination__item--current, .pagination__item:hover, .product-form .wbwish a:hover,.whr-menu,.leftpro .heading,
+.wbrtlmode li a:hover, .wbsitebox li:hover,.mobile-facets__label .icon-checkmark,.deliveryinfo li span::after,.cms-menu a::after,
+.facet-checkbox > input[type="checkbox"]:checked ~ .icon-checkmark,.wbproducttab .nav-tabs .nav-item a.active::before,
+.product__info-container .badge,#scroll,.product_badge,.btn-primary, .button, .customer button,.header__search .field__button,
+.shopify-challenge__button,.wbimgblock .wbquickv:hover,.wbproducttab .spr-container .spr-summary-actions-newreview,.pro-tab .nav-tabs .nav-link::before,
+.colltext a.btn, .offerbtxt a.btn, .sptext a.btn,.product-form .cartb:hover, .product-form .wbquickv:hover,.wbcounttimer,.saletext a.btn,
+.slideff a.btn-primary,.slick-dots li button,.heading span::before,.wbhcartitem, .wbwishcount,.slick-slider .slick-arrow:hover,
+.header__icons .field__button, .searchbar .field__button, .template-search .field__button,.footer__list-social li a:hover,.leftpro .heading span::before,
+.ptabbr li a.active:before, .ptabbr li a:hover:before,.footer__list-social li a:hover {  
+	background: #ad0202;   
+}
+.slick-dots li.slick-active button::before,.slick-dots li button::before,.saletext a.btn:hover,.newsletter-form__field-wrapper button.btn-primary,
+.wbaddpg .cless button:hover,.wbrtaddress,.carthead a.underlined-link,.wbsingleblog .tag-section .meta-sep,.homecatb:hover h2, 
+.wbsingleblog .tag-section a,.wbmainblog .tag-section a,.cart-notification__links .link.button-label:hover,.facet-checkbox:hover,
+.wbcatsort .product-count,.wbproducttab .nav-tabs .nav-item.show .nav-link, .wbproducttab .nav-tabs .nav-link.active,
+.product-popup-modal__button,.quickvfull,.copyright__content a:hover, .footblink p a:hover,.blog__view-all a.btn:hover,
+.product-title:hover, .product-title:hover a,a:hover,.righttext a.btn, .rtext a.btn,.wbuserdate .wbblogauth,
+.testimonial .slick-slide.slick-center h4, .product-form .wbwish a:hover ,.cms-menu a:hover, .special-offer a:hover,
+.pro-tab .nav-tabs .nav-item .nav-link.active, .pro-tab .nav-tabs .nav-link:hover,.lefttxt a.btn, .slefttxt a.btn, .imgtext a.btn,
+.testimonial h4 {
+	color: #ad0202;
+}
+.ptabbr1.nav-tabs .nav-link span::before,#megamenu li.wbmenul_1 a.wbmenul1_link:after{
+	border-bottom-color: #ad0202;
+}
+.product-form .wbquickv:hover,.pctab .nav-tabs .nav-link.active, .pctab .nav-tabs .nav-link:hover,.testimonial img,
+.colltext a.btn:hover, .righttext a.btn:hover, .rtext a.btn:hover, .offerbtxt a.btn:hover,.slideff a.btn-primary,
+.product-form .cartb:hover, .product-form .wbquickv:hover ,.product-form .wbwish a:hover{
+	border-color: #ad0202;
+}
+.wbcontform li svg,.wblistgridbtn svg:hover, .wblistgridbtn.active svg,.wbtestisub svg,.deliveryinfo ul svg,.wbfootcont svg,
+.product__info-container .product-popup-modal__button svg,.headtleft svg,.userdrop:hover svg, .wbhcart:hover svg,.announcement-bar svg {
+	fill: #ad0202;
+}
+.testimonial .slick-slide.slick-center img {
+	border: 1px solid #ad0202;
+}
+
+.thumbnail[aria-current] img {
+	border: 0.1rem solid #ad0202;
+}    
