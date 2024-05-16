@@ -70,6 +70,8 @@
 - [ ] Captcha
 
 ## ✨ UPGRADES
-- [ ] Switch `Bootstrap.css` to `Tailwind.css`
-- [ ] Switch `Slick.js` to `Swiper.js`
-  - [ ] Or use `Owl` (?)
+- [ ] CDN Conversion where possible
+  - [ ] Switch `Bootstrap.css` to `Tailwind.css`
+  - [ ] Switch `Slick.js` to `Swiper.js`
+    - [ ] Or use `Owl` (?)
+- [ ] Mobile-first design
