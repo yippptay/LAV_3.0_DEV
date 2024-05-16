@@ -1,4 +1,4 @@
-## 📌 TODO
+## 📌 TRANSCRIBE
 ### Landing Page
 - [ ] Age Verification
 ### Header
@@ -46,8 +46,25 @@
 - [ ] Support for `dropship`
 - [ ] Show live stock level
 ### Account Page
-- [ ] 
+- [ ] Account Details
+  - [ ] Orders
+    - [ ] Show Tracking Status
+  - [ ] Profile
+  - [ ] Store Credit
+  - [ ] Addresses
+  - [ ] Saved Carts
+  - [ ] Discounts & Coupons
+  - [ ] Logout
+- [ ] Banner Slot
+- [ ] Your Representative
 ### Footer
-- [ ]
+- [ ] Customer Care
+- [ ] Information
+- [ ] Account
+- [ ] Contact Us
+- [ ] Mailing List
 ### Other
-- [ ]
+- [ ] Speed & Security
+- [ ] Excel Sheet Order Form
+- [ ] Replace the use of lockout
+- [ ] Captcha
