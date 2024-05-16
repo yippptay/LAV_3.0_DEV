@@ -75,4 +75,5 @@
   - [ ] Switch `Slick.js` to [`Swiper.js`](https://swiperjs.com/get-started#use-swiper-from-cdn)
     - [ ] Or use `Owl` (?)
   - [ ] Switch local `Datatables.js` to [`CDN Datatables.js`](https://cdn.datatables.net)
+  - [x] Switch local `Jquery` to `CDN Jquery`
 - [ ] Mobile-first design
