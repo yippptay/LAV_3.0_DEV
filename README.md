@@ -2,7 +2,7 @@
 ### Landing Page
 - [ ] Age Verification
 ### Header
-- [ ] Search
+- [ ] **Search**
   - [ ] Search by Category
 ### Home Page
 - [ ]
