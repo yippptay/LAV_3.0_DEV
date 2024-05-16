@@ -68,3 +68,6 @@
 - [ ] Excel Sheet Order Form
 - [ ] Replace the use of lockout
 - [ ] Captcha
+
+## ✨ UPGRADES
+- [ ] Switch `Bootstrap` to `Tailwind`
