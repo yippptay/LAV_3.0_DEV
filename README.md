@@ -40,8 +40,13 @@
 - [ ] Product Title Disjoint ([DROPSHIP])
 - [ ] Product Variant Badge (New)
 - [ ] `DataTables.js` Order Table
+- [ ] Login required to purchase
+- [ ] Clearance Disclaimer
+- [ ] Support for `add_Dallas`, `add_California`, `add_Houston` warehouse tags
+- [ ] Support for `dropship`
+- [ ] Show live stock level
 ### Account Page
-- [ ]
+- [ ] 
 ### Footer
 - [ ]
 ### Other
