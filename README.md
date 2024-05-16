@@ -37,7 +37,9 @@
 - [ ] AJAX Scrolling (?)
 ### Product Page
 - [ ] Product Title Badges (New, Clearance, Sale)
-- [ ] Product Title Disjoit ([DROPSHIP])
+- [ ] Product Title Disjoint ([DROPSHIP])
+- [ ] Product Variant Badge (New)
+- [ ] `DataTables.js` Order Table
 ### Account Page
 - [ ]
 ### Footer
