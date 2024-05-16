@@ -70,4 +70,6 @@
 - [ ] Captcha
 
 ## ✨ UPGRADES
-- [ ] Switch `Bootstrap` to `Tailwind`
+- [ ] Switch `Bootstrap.css` to `Tailwind.css`
+- [ ] Switch `Slick.js` to `Swiper.js`
+  - [ ] Or use `Owl` (?)
