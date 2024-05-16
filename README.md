@@ -72,7 +72,7 @@
 ## ✨ UPGRADES
 - [ ] CDN Conversion where possible
   - [ ] Switch `Bootstrap.css` to `Tailwind.css`
-  - [ ] Switch `Slick.js` to (`Swiper.js`)[https://cdn.datatables.net]
+  - [ ] Switch `Slick.js` to [`Swiper.js`](https://cdn.datatables.net)
     - [ ] Or use `Owl` (?)
   - [ ] Switch local `Datatables.js` to `CDN Datatables.js`
 - [ ] Mobile-first design
