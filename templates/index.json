@@ -8,7 +8,6 @@
           "settings": {
             "slidesubclr": "#bababa",
             "slideheadclr": "#ffffff",
-            "image": "shopify:\/\/shop_images\/s1-1.jpg",
             "subtitle": "SPRING - SUMMER 2022",
             "heading": "Super Sale 2022",
             "heading_size": "large",
@@ -26,7 +25,6 @@
           "settings": {
             "slidesubclr": "#bababa",
             "slideheadclr": "#ffffff",
-            "image": "shopify:\/\/shop_images\/S2_3d8ae1ac-c141-4808-b1f5-951fb7710d79.jpg",
             "subtitle": "SPRING - SUMMER 2022",
             "heading": "Super Sale 2022",
             "heading_size": "large",
@@ -48,23 +46,21 @@
         "layout": "full_bleed",
         "slide_height": "adapt_image",
         "slider_visual": "dots",
-        "pagicolor": "#fd6c1e",
-        "auto_rotate": false,
+        "pagicolor": "#f8ca23",
+        "auto_rotate": true,
         "change_slides_speed": 5,
-        "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand",
-        "image1": "shopify:\/\/shop_images\/r1.jpg",
-        "link1": "shopify:\/\/collections",
-        "storytitle1": "Women Fashion",
-        "storysubtitle1": "Up To 60% Off",
-        "btn1": "Shop Now",
-        "btnlink1": "shopify:\/\/collections",
-        "image2": "shopify:\/\/shop_images\/r2.jpg",
-        "link2": "shopify:\/\/collections",
-        "storytitle2": "New Smart Mobile",
-        "storysubtitle2": "Up To 30% Off",
-        "btn2": "Shop Now",
-        "btnlink2": "shopify:\/\/collections"
+        "show_text_below": true,
+        "accessibility_info": "",
+        "link1": "",
+        "storytitle1": "Lorem Ipsum",
+        "storysubtitle1": "Lorem Ipsum",
+        "btn1": "Lorem Ipsum",
+        "btnlink1": "",
+        "link2": "",
+        "storytitle2": "Lorem Ipsum",
+        "storysubtitle2": "Lorem Ipsum",
+        "btn2": "Lorem Ipsum",
+        "btnlink2": ""
       }
     },
     "165426017995948934": {
@@ -73,142 +69,73 @@
         "d4fb4075-38f3-4dda-824c-ee072258804d": {
           "type": "collection",
           "settings": {
-            "cat_name": "featured",
-            "collection": "frontpage"
+            "cat_name": "ALL",
+            "collection": "all-products"
           }
         },
         "55207127-12f9-41b2-9c33-4d23406dfc20": {
           "type": "collection",
           "settings": {
-            "cat_name": "latest",
-            "collection": "latest-product"
+            "cat_name": "HARDWARE",
+            "collection": "hardware-new-arrivals"
           }
         },
         "88651863-bda9-464b-8767-d5040855b3ef": {
           "type": "collection",
           "settings": {
-            "cat_name": "bestseller",
-            "collection": "best-product"
+            "cat_name": "E-LIQUID",
+            "collection": "e-liquid"
+          }
+        },
+        "collection_PBL6bb": {
+          "type": "collection",
+          "settings": {
+            "cat_name": "DISPOSABLES",
+            "collection": "all-disposables-no-ds"
+          }
+        },
+        "collection_pGiVdm": {
+          "type": "collection",
+          "settings": {
+            "cat_name": "HEMP",
+            "collection": "hemp-products"
+          }
+        },
+        "collection_4ayaHa": {
+          "type": "collection",
+          "settings": {
+            "cat_name": "SMOKE SHOP",
+            "collection": "all-smoke-shop"
           }
         }
       },
       "block_order": [
         "d4fb4075-38f3-4dda-824c-ee072258804d",
         "55207127-12f9-41b2-9c33-4d23406dfc20",
-        "88651863-bda9-464b-8767-d5040855b3ef"
+        "88651863-bda9-464b-8767-d5040855b3ef",
+        "collection_PBL6bb",
+        "collection_pGiVdm",
+        "collection_4ayaHa"
       ],
       "settings": {
-        "m_title": "Our product",
-        "rows": 1,
-        "image_ratio": "adapt",
-        "display_product_type": true,
+        "m_title": "NEW ARRIVALS",
+        "rows": 2,
+        "image_ratio": "square",
+        "display_product_type": false,
         "show_rating": false,
         "show_vendor": false,
-        "show_variants": true,
-        "picker_type": "button"
-      }
-    },
-    "1645771274b01b8e04": {
-      "type": "special",
-      "settings": {
-        "ms_title": "Special Products",
-        "rows": 1,
-        "image_ratio": "adapt",
-        "display_product_type": false,
-        "enable_listdesc": true,
-        "show_rating": true,
         "show_variants": false,
         "picker_type": "button",
-        "collection": "deal-product"
+        "show_colorswatch": false
       }
     },
     "1645245062f3e2c3c9": {
       "type": "offerbanner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/offer.jpg",
         "link": "shopify:\/\/collections",
         "storytitle": "New Collection 2022",
         "storysubtitle": "Cum sociis natoque penatibus magnis dis parturient montes have sedss don even sociis natoque slightly the lacinia bibendum",
         "btntxt": "Shop Now"
-      }
-    },
-    "1644812326b878e99b": {
-      "type": "wbcollection-list",
-      "blocks": {
-        "1644812326bbd222b5-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "accessories"
-          }
-        },
-        "2cbd2504-5396-4e4d-8375-8f38762b6095": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "cosmatic"
-          }
-        },
-        "326a82d1-70e1-4706-89a9-dd770ea43cff": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "electronic"
-          }
-        },
-        "f5fc9af2-b45b-4d14-a8f5-f1bd7689698d": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "fruits"
-          }
-        },
-        "38ddf632-2547-4b7c-ab6a-32f04bcfd605": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "furniture"
-          }
-        },
-        "e4433375-9d37-4cc3-962b-c52abd499b08": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "smart-tv"
-          }
-        },
-        "c828f145-f5b9-4571-99b0-774eb3ab52fe": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "smartphone"
-          }
-        },
-        "077c5e1b-c288-4454-a9b8-e580bb60e266": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "electronic"
-          }
-        }
-      },
-      "block_order": [
-        "1644812326bbd222b5-0",
-        "2cbd2504-5396-4e4d-8375-8f38762b6095",
-        "326a82d1-70e1-4706-89a9-dd770ea43cff",
-        "f5fc9af2-b45b-4d14-a8f5-f1bd7689698d",
-        "38ddf632-2547-4b7c-ab6a-32f04bcfd605",
-        "e4433375-9d37-4cc3-962b-c52abd499b08",
-        "c828f145-f5b9-4571-99b0-774eb3ab52fe",
-        "077c5e1b-c288-4454-a9b8-e580bb60e266"
-      ],
-      "settings": {
-        "s_title": "Decorate Kid Room",
-        "m_title": "Top Category"
-      }
-    },
-    "1645186207bddede55": {
-      "type": "toprated",
-      "settings": {
-        "ms_title": "Toprated Products",
-        "rows": 1,
-        "image_ratio": "adapt",
-        "display_product_type1": false,
-        "show_rating1": true,
-        "picker_type": "button",
-        "collection1": "smart-tv"
       }
     },
     "164524262890b378ef": {
@@ -217,7 +144,6 @@
         "3d73e6a6-f0fd-4f81-8745-0bf2e422c9cc": {
           "type": "Image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sale-1.jpg",
             "link": "shopify:\/\/collections",
             "storysubtitle": "Get Up to 30% off",
             "storytitle": "New Brand Shoes",
@@ -228,7 +154,6 @@
         "823f375b-c92d-40fa-aff3-8f4fa5e834f0": {
           "type": "Image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sale-2.jpg",
             "link": "shopify:\/\/collections",
             "storysubtitle": "Get Up to 50% off",
             "storytitle": "New Furniture Design",
@@ -244,16 +169,46 @@
       "settings": {
       }
     },
-    "1645244147611be941": {
-      "type": "newproduct",
+    "imgbanner_dJhqf4": {
+      "type": "imgbanner",
+      "blocks": {
+        "image_tcYQ9e": {
+          "type": "Image",
+          "settings": {
+            "link": "",
+            "storytitle": "New Shoes",
+            "storysubtitle": "SPRING - SUMMER 2021",
+            "btn": "Shop Now",
+            "btnlink": ""
+          }
+        },
+        "image_9Fa3xb": {
+          "type": "Image",
+          "settings": {
+            "link": "",
+            "storytitle": "New Shoes",
+            "storysubtitle": "SPRING - SUMMER 2021",
+            "btn": "Shop Now",
+            "btnlink": ""
+          }
+        },
+        "image_HF7QnL": {
+          "type": "Image",
+          "settings": {
+            "link": "",
+            "storytitle": "New Shoes",
+            "storysubtitle": "SPRING - SUMMER 2021",
+            "btn": "Shop Now",
+            "btnlink": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_tcYQ9e",
+        "image_9Fa3xb",
+        "image_HF7QnL"
+      ],
       "settings": {
-        "ms_title": "New Products",
-        "rows": 1,
-        "image_ratio": "adapt",
-        "display_product_type1": false,
-        "show_rating1": true,
-        "show_variants1": false,
-        "collection1": "electronic"
       }
     },
     "164578896788ce63d3": {
@@ -317,19 +272,17 @@
         "display_product_type": false,
         "show_rating": true,
         "show_variants": false,
-        "picker_type": "button"
+        "picker_type": "button",
+        "show_colorswatch": true
       }
     }
   },
   "order": [
     "1641460486cee907a2",
     "165426017995948934",
-    "1645771274b01b8e04",
     "1645245062f3e2c3c9",
-    "1644812326b878e99b",
-    "1645186207bddede55",
     "164524262890b378ef",
-    "1645244147611be941",
+    "imgbanner_dJhqf4",
     "164578896788ce63d3"
   ]
 }

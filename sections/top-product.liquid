@@ -24,7 +24,7 @@
                 <div class="tab-pane fade {% if forloop.first %}show active{% endif %}" id="wbprodtab1-{{block.id}}">
                     <div class="rless">
                         <div class="owl-toppro">
-                            {% for product in collection.products %}
+                            {% for product in collection.products limit: 15 %}
                                     <div class="grid__item col-12 cless list-unstyled">
                                     {% render 'product-card-banner',
                                     product_card_product: product,
