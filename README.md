@@ -74,4 +74,5 @@
   - [ ] Switch `Bootstrap.css` to `Tailwind.css`
   - [ ] Switch `Slick.js` to `Swiper.js`
     - [ ] Or use `Owl` (?)
+  - [ ] Switch local `Datatables.js` to `CDN Datatables.js`
 - [ ] Mobile-first design
