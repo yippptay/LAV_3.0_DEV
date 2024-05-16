@@ -13,7 +13,7 @@
   - [ ] Employee SOPs
   - [ ] Saved Carts
 - [ ] All Categories Dropdown
-  - [ ] X
+  - [ ] Lorem Ipsum
 - [ ] Login Form Module/Dropdown
 - [ ] Request Wholesale Account (Logged Out)
 - [ ] User-Friendly Navigation Bar w/ Dropdowns
@@ -21,11 +21,23 @@
 - [ ] Announcement Bar
 - [ ] Nicotine Warning
 ### Home Page
-- [ ]
+- [ ] Logo Bar
+- [ ] Hero-Banners
+- [ ] Sidekick-Banners
+- [ ] Quarter-Banners
+- [ ] Tri-Banners
+- [ ] Half-Banners
+- [ ] New Arrivals Tabular Categories
+- [ ] Popular Tabular Categories
 ### Collection Page
-- [ ]
+- [ ] Cards
+  - [ ] Quick View
+  - [ ] Badges
+- [ ] Filters and Sort
+- [ ] AJAX Scrolling (?)
 ### Product Page
-- [ ]
+- [ ] Product Title Badges (New, Clearance, Sale)
+- [ ] Product Title Disjoit ([DROPSHIP])
 ### Account Page
 - [ ]
 ### Footer
