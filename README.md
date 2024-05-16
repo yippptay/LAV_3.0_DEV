@@ -77,3 +77,4 @@
   - [ ] Switch local `Datatables.js` to [`CDN Datatables.js`](https://cdn.datatables.net)
   - [x] Switch local `Jquery` to `CDN Jquery`
 - [ ] Mobile-first design
+- [ ] [Section Rendering](https://community.shopify.com/c/online-store-and-theme/dynamically-loading-a-section-with-parameters/m-p/1405200)
