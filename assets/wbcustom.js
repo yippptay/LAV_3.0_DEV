@@ -1,5 +1,32 @@
 $(document).ready(function() {
 
+    /** Slideshow.liquid */
+    const swiper = new Swiper('.swiper-slideshow', {
+        // Optional parameters
+        autoplay: {
+            delay: 5000,
+        },
+        effect: "fade",
+        loop: true,
+        rewind: true,
+      
+        // If we need pagination
+        pagination: {
+          el: '.swiper-pagination',
+        },
+      
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      
+        // And if we need scrollbar
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+      });
+
     // Tab Append
     $('.appendtabfea').appendTo('#tab-fea-0');
     $('.appendtablatest').appendTo('#tab-latest-0');
