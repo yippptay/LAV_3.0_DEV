@@ -3,34 +3,36 @@
     "1641460486cee907a2": {
       "type": "slideshow",
       "blocks": {
-        "c580c1d5-e69f-42b9-b22f-363292813133": {
+        "slide_y4zxKg": {
           "type": "slide",
           "settings": {
-            "slidesubclr": "#bababa",
-            "slideheadclr": "#ffffff",
-            "subtitle": "SPRING - SUMMER 2022",
-            "heading": "Super Sale 2022",
+            "slidesubclr": "#fff",
+            "slideheadclr": "#fff",
+            "image": "shopify:\/\/shop_images\/image_2024_05_16T20_53_45_854Z.png",
+            "subtitle": "Slider Text",
+            "heading": "Image slide",
             "heading_size": "large",
-            "button_label": "view collection",
-            "link": "shopify:\/\/collections",
-            "box_align": "top-center",
+            "button_label": "Button label",
+            "link": "",
+            "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "text_alignment_mobile": "center"
           }
         },
-        "d19adeda-d74f-43fd-ad13-f8e3ed5102c4": {
+        "slide_LHmUK4": {
           "type": "slide",
           "settings": {
-            "slidesubclr": "#bababa",
-            "slideheadclr": "#ffffff",
-            "subtitle": "SPRING - SUMMER 2022",
-            "heading": "Super Sale 2022",
+            "slidesubclr": "#fff",
+            "slideheadclr": "#fff",
+            "image": "shopify:\/\/shop_images\/5-2060X1120.jpg",
+            "subtitle": "Slider Text",
+            "heading": "Image slide",
             "heading_size": "large",
-            "button_label": "view collection",
-            "link": "shopify:\/\/collections",
-            "box_align": "top-center",
+            "button_label": "Button label",
+            "link": "",
+            "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
@@ -39,8 +41,8 @@
         }
       },
       "block_order": [
-        "c580c1d5-e69f-42b9-b22f-363292813133",
-        "d19adeda-d74f-43fd-ad13-f8e3ed5102c4"
+        "slide_y4zxKg",
+        "slide_LHmUK4"
       ],
       "settings": {
         "layout": "full_bleed",

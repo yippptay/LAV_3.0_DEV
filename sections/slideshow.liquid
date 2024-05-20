@@ -34,9 +34,20 @@
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
         <!-- Slides -->
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
+        {%- for block in section.blocks -%}
+          <div class="swiper-slide">
+            {%- if block.settings.image -%}
+              <img
+                src="{{ block.settings.image | img_url: '1500x' }}"
+                loading="lazy"
+                width="100%"
+                height="auto"
+              >
+            {%- else -%}
+              {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
+            {%- endif -%}
+          </div>
+        {% endfor %}
       </div>
       <!-- If we need pagination -->
       <div class="swiper-pagination"></div>
@@ -45,8 +56,8 @@
       <div class="swiper-button-prev"></div>
       <div class="swiper-button-next"></div>
 
-      <!-- If we need scrollbar -->
-      <div class="swiper-scrollbar"></div>
+      {% comment %} <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div> {% endcomment %}
     </div>
 
     {% comment %} <slideshow-component class="slider-mobile-gutter{%if section.settings.layout == 'grid' %} container{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %}" role="region" aria-roledescription="{{ 'sections.slideshow.carousel' | t }}" aria-label="{{ section.settings.accessibility_info | escape }}">

@@ -6,6 +6,7 @@ $(document).ready(function() {
         autoplay: {
             delay: 5000,
         },
+        edgeSwipeDetection: true,
         effect: "fade",
         loop: true,
         rewind: true,
@@ -13,6 +14,7 @@ $(document).ready(function() {
         // If we need pagination
         pagination: {
           el: '.swiper-pagination',
+          type: "progressbar",
         },
       
         // Navigation arrows
@@ -21,10 +23,10 @@ $(document).ready(function() {
           prevEl: '.swiper-button-prev',
         },
       
-        // And if we need scrollbar
-        scrollbar: {
-          el: '.swiper-scrollbar',
-        },
+        // // And if we need scrollbar
+        // scrollbar: {
+        //   el: '.swiper-scrollbar',
+        // },
       });
 
     // Tab Append
@@ -656,4 +658,3 @@ function w3_close() {
     document.getElementById("megamenu").className = "";
     $('body').removeClass("wbbodyscroll");
 }
-
