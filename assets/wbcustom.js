@@ -1,11 +1,11 @@
 $(document).ready(function() {
 
     /** Slideshow.liquid */
-    const swiper = new Swiper('.swiper-slideshow', {
+    const slideshow_swiper = new Swiper('.swiper-slideshow', {
         // Optional parameters
-        autoplay: {
-            delay: 5000,
-        },
+        // autoplay: {
+        //     delay: 5000,
+        // },
         edgeSwipeDetection: true,
         effect: "fade",
         loop: true,
@@ -27,7 +27,7 @@ $(document).ready(function() {
         // scrollbar: {
         //   el: '.swiper-scrollbar',
         // },
-      });
+    });
 
     // Tab Append
     $('.appendtabfea').appendTo('#tab-fea-0');
@@ -85,11 +85,12 @@ $(document).ready(function() {
 
     // Home Tab Product  
     $('.owl-toppro,.wbnewpro').slick({
-        dots: false,
         arrows: true,
-        infinite: false,
         autoplay: false,
         autoplaySpeed: 2000,
+        dots: false,
+        infinite: false,
+        rows: 2,
         slidesToShow: 5,
         slidesToScroll: 1,
         responsive: [

@@ -24,7 +24,7 @@
                 <div class="tab-pane fade {% if forloop.first %}show active{% endif %}" id="wbprodtab1-{{block.id}}">
                     <div class="rless">
                         <div class="owl-toppro">
-                            {% for product in collection.products limit: 15 %}
+                            {% for product in collection.products %}
                                     <div class="grid__item col-12 cless list-unstyled">
                                     {% render 'product-card-banner',
                                     product_card_product: product,
@@ -34,7 +34,7 @@
                                     picker_type: section.settings.picker_type,
                                     show_variants: section.settings.show_variants,
                                     show_colorswatch: section.settings.show_colorswatch,
-                                    display_product_type: section.settings.display_product_type  %}
+                                    display_product_type: section.settings.display_product_type %}
                                     </div>
                             {% else %}
                                 {%- for i in (1..6) -%}
