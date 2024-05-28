@@ -1,23 +1,18 @@
 .no-js:not(html) {
   display: none !important;
 }
-
 html.no-js .no-js:not(html) {
   display: block !important;
 }
-
 .no-js-inline {
   display: none !important;
 }
-
 html.no-js .no-js-inline {
   display: inline-block !important;
 }
-
 html.no-js .no-js-hidden {
   display: none !important;
 }
-
 .element-margin {
   margin-top: 5rem;
 }
@@ -25,23 +20,19 @@ html.no-js .no-js-hidden {
   display: grid;
   grid-auto-flow: column;
 }
-
 .page-margin,
 .shopify-challenge__container {
   margin: 7rem auto;
 }
-
 .rte-width {
   max-width: 82rem;
   margin: 0 auto 2rem;
 }
-
 .list-unstyled {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-
 .hidden {
   display: none !important;
 }
