@@ -124,22 +124,22 @@ header-drawer {
 
               </div>
             </div>
-            <div class="col-lg-4 col-md-3 col-4 text-right tright">
+            <div class="col-lg-4 col-md-3 col-4 text-end tright">
 
               <div class="husercart">
                 <div class="header-support d-xl-inline-block d-none">
                   <span class="svgbg d-inline-block align-middle text-center">{% render 'icon-hphn' %}</span>
-                    <span class="d-lg-inline-block d-none text-left align-middle icon-right-part">
+                    <span class="d-lg-inline-block d-none text-start align-middle icon-right-part">
                         <span class="d-block main-title">{{ section.settings.head_no}}</span>
                         <span class="d-block sub-title">{{ 'wbcustomlabel.wballtext.cust_supp' | t }}</span>  
                     </span>
                 </div>
                 {%- if shop.customer_accounts_enabled -%}
                 <div class="slidedown_section dropdown">
-                    <div class="hmuser" data-toggle="dropdown">
+                    <div class="hmuser" data-bs-toggle="dropdown">
                         <div class="userdrop">
                             <span class="svgbg d-inline-block align-middle text-center">{% render 'icon-account' %}</span>
-                            <span class="d-lg-inline-block d-none text-left align-middle icon-right-part">
+                            <span class="d-lg-inline-block d-none text-start align-middle icon-right-part">
                                 <span class="d-block main-title">{{ 'wbcustomlabel.wballtext.account' | t }}</span>
                                 <span class="d-none sub-title">{% if customer %}{{ 'wbcustomlabel.wballtext.log_out' | t }}{% else %}{{ 'wbcustomlabel.wballtext.log_in' | t }}{% endif %}</span>
                             </span>
@@ -147,7 +147,7 @@ header-drawer {
                     </div>
                     <div class="dropdown-menu dropdown-menu-right">
                         <div class="header-panel-top">
-                            <div class="customer_account text-left">
+                            <div class="customer_account text-start">
                                 <ul class="list-unstyled">
                                     {% if customer %}
                                     <li>
@@ -185,10 +185,10 @@ header-drawer {
                 {%- endif -%}
                 {%comment%} Webibazaar Cart Dropdown {%endcomment%}
                 <div class="dropdown" id="cart-icon-bubble">
-                    <div data-toggle="dropdown"> 
+                    <div data-bs-toggle="dropdown"> 
                         <div class="wbhcart">
                             <span class="svgbg d-inline-block align-middle text-center">{% render 'icon-hcart' %}</span>
-                            <span class="d-lg-inline-block text-left align-middle icon-right-part">
+                            <span class="d-lg-inline-block text-start align-middle icon-right-part">
                                 <span class="d-lg-block main-title d-none">{{ 'wbcustomlabel.wballtext.mycart' | t }}</span>
                                 <span class="d-block sub-title"><span class="wbhcartitem">{{ cart.item_count }} <span class="d-none">{{ 'wbcustomlabel.wballtext.cartitem' | t }}</span></span></span>
                             </span>

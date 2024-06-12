@@ -13,18 +13,18 @@
 </style>
 <div class="wbmenuup">
     {% if section.settings.megamenu_toggle %}
-    <h3 class="whr-menu d-lg-block d-none" data-toggle="collapse" data-target="#under-menu" aria-expanded="false" aria-label="Toggle navigation">
-    <button class="navbar-toggler" type="button" aria-label="Center Align">
-        <div class="navbar-toggler-icon">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-        </div>
-    </button>
-    <span class="cate">{{ 'wbcustomlabel.wballtext.allcategories' | t }}</span><svg><use xlink:href="#arrow-down"></use></svg>
+    <h3 class="whr-menu d-lg-block d-none" data-bs-toggle="collapse" data-bs-target="#under-menu" aria-expanded="false" aria-controls="under-menu" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" aria-label="Center Align">
+            <div class="navbar-toggler-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </button>
+        <span class="cate">{{ 'wbcustomlabel.wballtext.allcategories' | t }}</span><svg><use xlink:href="#arrow-down"></use></svg>
     </h3>
     <div id="under-menu" class="collapse">
-        <nav id="megamenu" class="megamenu text-left">
+        <nav id="megamenu" class="megamenu text-start">
 
                   <div class="wr-menu" onclick="w3_open()">
                       <span>{% render 'icon-menubar' %}</span>
@@ -37,7 +37,7 @@
                               {% if canonical_url_trim == "/" %}{% assign canonical_url_trim = "" %}{% endif %}
 
                               <li class="wbmenulink wbmenul_1 {% case block.type %}{% when 'link-linklist' %}wbmegaonlylink{% when 'link-4linklists' %}wbmegalink-img{% when 'link-8banners' %}wbmegabanner{% when 'link-products' %}wbmegaproduct{% when 'link-blog' %}wbmegablog{% endcase %}">
-                                  <a class="wbmenul1_link text-left {% if block_url_trim == canonical_url_trim %}active{% endif %}" href="{{ block.settings.link }}">{{ block.settings.title }}
+                                  <a class="wbmenul1_link text-start {% if block_url_trim == canonical_url_trim %}active{% endif %}" href="{{ block.settings.link }}">{{ block.settings.title }}
                                       {% if block.settings.links.size > 0 or block.settings.links_1.size > 0 or block.settings.links_2.size > 0 or block.settings.links_3.size > 0 or block.settings.links_4.size > 0 or block.settings.products.size > 0 or block.settings.blog.size > 0 or block.settings.banner_1_link.size > 0 %}<i class="fa fa-angle-down wbmegamainhd" data-submenu="menu_{{ block.id }}"></i><svg class="wbmegamainhd"  data-submenu="menu_{{ block.id }}"><use xlink:href="#arrow-down"></use></svg>{% endif  %}
                                       {% if block.settings.badge_text.size > 0 %}<span class="menu_badge" style="background-color: {{ block.settings.bg_color }}">{{ block.settings.badge_text }}</span>{% endif %}
 

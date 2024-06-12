@@ -26,28 +26,36 @@
   {%- endstyle -%}
 {%- endif -%}
 <div class="row rless">
-
-  <!-- Hero Banner -->
   <div class="col-lg-9 col-md-9 col-12 s-panel cless">
+
     <!-- Slider main container -->
-    <div class="swiper-slideshow">
+    <div class="swiper swiper-slideshow">
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
         <!-- Slides -->
         {%- for block in section.blocks -%}
+          {% if forloop.index0 == 0 %}
           <div class="swiper-slide">
-            {%- if block.settings.image -%}
-              <img
-                src="{{ block.settings.image | img_url: '1500x' }}"
-                loading="lazy"
-                width="100%"
-                height="auto"
-              >
-            {%- else -%}
-              {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
-            {%- endif -%}
+            <img
+              src="{{ block.settings.image | img_url: '1500x' }}"
+              width="100%"
+              height="auto"
+              loading="lazy"
+            >
           </div>
+          {% else %}
+          <div class="swiper-slide">
+            <img
+              src="{{ block.settings.image | img_url: '1500x' }}"
+              loading="lazy"
+              width="100%"
+              height="auto"
+            >
+            <div class="swiper-lazy-preloader"></div>
+          </div>
+          {% endif %}
         {% endfor %}
+
       </div>
       <!-- If we need pagination -->
       <div class="swiper-pagination"></div>
@@ -56,8 +64,6 @@
       <div class="swiper-button-prev"></div>
       <div class="swiper-button-next"></div>
 
-      {% comment %} <!-- If we need scrollbar -->
-      <div class="swiper-scrollbar"></div> {% endcomment %}
     </div>
 
     {% comment %} <slideshow-component class="slider-mobile-gutter{%if section.settings.layout == 'grid' %} container{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %}" role="region" aria-roledescription="{{ 'sections.slideshow.carousel' | t }}" aria-label="{{ section.settings.accessibility_info | escape }}">
@@ -169,6 +175,7 @@
       {%- endif -%}
 
     </slideshow-component> {% endcomment %}
+
   </div>
   <div class="col-lg-3 col-md-3 col-12 right-banner cless">
     <div class="procatbnr">

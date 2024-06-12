@@ -13,7 +13,7 @@
 <product-recommendations class="product-recommendations" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit=4">
     <div class=""> 
         {% if recommendations.performed and recommendations.products_count > 0 %}
-            <h2 class="heading text-left"><span>{{ section.settings.heading | escape }}</span></h2>
+            <h2 class="heading text-start"><span>{{ section.settings.heading | escape }}</span></h2>
             <div class="row rless">
                 {% for recommendation in recommendations.products %}
                     <div class="grid__item col-6 col-sm-4 col-md-6 col-lg-4 col-xl-3 cless">

@@ -15,15 +15,16 @@
     "type_base_font": "Google+Nunito",
     "type_header_base_size": 30,
     "type_base_size": 14,
-    "social_twitter_link": "",
-    "social_facebook_link": "",
-    "social_pinterest_link": "",
-    "social_instagram_link": "",
+    "social_twitter_link": "#",
+    "social_facebook_link": "#",
+    "social_pinterest_link": "#",
+    "social_instagram_link": "#",
     "social_tumblr_link": "",
     "predictive_search_enabled": true,
     "favicon": "shopify:\/\/shop_images\/favicon.png",
     "currency_code_enabled": true,
     "display_product_type": false,
+    "enable_listdesc": false,
     "show_variants": false,
     "viewfulldet": false,
     "show_rating": false,
@@ -31,13 +32,13 @@
     "wbboxed": false,
     "wbenblertl": false,
     "show_timer": false,
-    "timer_text": "",
+    "timer_text": "hurry up! <p> offer ends in:<\/p>",
     "wb_enablewish": false,
     "badge_toggle": true,
-    "new_products_period": "200",
+    "new_products_period": "30",
     "checkout_logo_image": "shopify:\/\/shop_images\/clogo.png",
-    "checkout_accent_color": "#f8ca23",
-    "checkout_button_color": "#f8ca23",
+    "checkout_accent_color": "#fd6c1e",
+    "checkout_button_color": "#fd6c1e",
     "colors_outline_button_labels": "#121212",
     "sale_badge_color_scheme": "accent-1",
     "sold_out_badge_color_scheme": "inverse",
@@ -64,18 +65,19 @@
         ],
         "settings": {
           "popup_product": true,
-          "topbg": "#33373e",
+          "topbg": "#262626",
           "toptext": "#ffffff"
         }
       },
       "header": {
         "type": "header",
         "settings": {
-          "topbg": "#33373e",
-          "enable_country_selector": true,
-          "enable_language_selector": true,
-          "logo_width": 170,
-          "head_no": "(+91) 012 1544 489"
+          "topbg": "#262626",
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "logo": "shopify:\/\/shop_images\/La_Vapor_Logo_6-01_400x_400x_dd6a1ff4-fbfb-4f43-8283-f6c5430538ca.png",
+          "logo_width": 280,
+          "head_no": ""
         }
       },
       "footer": {
@@ -330,10 +332,10 @@
       "leftbanner": {
         "type": "leftbanner",
         "settings": {
-          "link": "",
-          "storysubtitle": "Lorem Ipsum",
-          "storytitle": "Lorem Ipsum",
-          "btntxt": "Lorem Ipsum"
+          "link": "shopify:\/\/collections",
+          "storysubtitle": "up to 60% off",
+          "storytitle": "fashion footwear",
+          "btntxt": "Shop now"
         }
       },
       "bestproduct": {

@@ -1,8 +1,8 @@
 {%comment%} Webibazaar Cart Dropdown {%endcomment%}
-<div data-toggle="dropdown"> 
+<div data-bs-toggle="dropdown"> 
     <div class="wbhcart">
         <span class="svgbg d-inline-block align-middle text-center">{% render 'icon-hcart' %}</span>
-        <span class="d-lg-inline-block text-left align-middle icon-right-part">
+        <span class="d-lg-inline-block text-start align-middle icon-right-part">
             <span class="d-lg-block main-title d-none">{{ 'wbcustomlabel.wballtext.mycart' | t }}</span>
             <span class="d-block sub-title"><span class="wbhcartitem">{{ cart.item_count }} <span class="d-none">{{ 'wbcustomlabel.wballtext.cartitem' | t }}</span></span></span>
         </span>
@@ -156,7 +156,7 @@
                     {%- if cart.cart_level_discount_applications.size > 0 -%}
                         <ul class="discounts list-unstyled" role="list" aria-label="{{ 'customer.order.discount' | t }}">
                             {%- for discount in cart.cart_level_discount_applications -%}
-                                <li class="discounts__discount discounts__discount--end text-right">
+                                <li class="discounts__discount discounts__discount--end text-end">
                                     {%- render 'icon-discount' -%}
                                     {{ discount.title }}
                                     (-{{ discount.total_allocated_amount | money }})

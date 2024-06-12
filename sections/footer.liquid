@@ -136,7 +136,7 @@
         <div class="row align-items-center">
             <div class="col-md-4 col-12">
                 {%- if section.settings.payment_enable -%}
-                    <div class="footer__payment text-left">
+                    <div class="footer__payment text-start">
                         <h3 class="c-info small-hide">{{ section.settings.fpayment }}</h3>
                         <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
                         <ul class="list list-payment" role="list">
@@ -159,7 +159,7 @@
                     </div>
                 {%- endif -%}
             </div>
-            <div class="col-md-4 col-12 text-right">
+            <div class="col-md-4 col-12 text-end">
                 <div class="fsocial">
                     {%- if section.settings.show_social -%}
                         <h3 class="c-info small-hide">{{ section.settings.fsocial }}</h3>

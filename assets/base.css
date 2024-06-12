@@ -1,3 +1,20 @@
+/* SWIPER.JS CSS START */
+.swiper {
+    width: 100%;
+    height: auto;
+}
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background: var(--color-wbmaincolors-text);
+}
+.swiper-button-next, .swiper-button-prev {
+    color: var(--color-wbmaincolors-text);
+}
+.swiper-lazy-preloader {
+    border: 4px solid var(--swiper-preloader-color,var(--color-wbmaincolors-text));
+    border-top-color: transparent;
+}
+/* SWIPER.JS CSS END */
+
 .no-js:not(html) {
   display: none !important;
 }

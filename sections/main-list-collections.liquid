@@ -2,7 +2,7 @@
 {{ 'section-collection-list.css' | asset_url | stylesheet_tag }}
 
 <div class="">
-    <h1 class="heading text-left"><span>{{ section.settings.title | escape }}</span></h1>
+    <h1 class="heading text-start"><span>{{ section.settings.title | escape }}</span></h1>
 
     {%- liquid
     case section.settings.sort

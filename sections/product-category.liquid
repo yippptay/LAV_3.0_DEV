@@ -1,6 +1,6 @@
 <div class="product-category">
     <div class="">
-        <h2 class="heading text-left"><span>{{ section.settings.m_title }}</span></h2>
+        <h2 class="heading text-start"><span>{{ section.settings.m_title }}</span></h2>
             <div class="row procatbgm">
                 <button type="button" class="toggle collapsed mycustbtm" data-toggle="collapse" data-target="#catprod1"></button>
                 <div class="mycustcatname col-xl-3 col-md-4 col-sm-4 col-12 collapse" id="catprod1">
@@ -29,7 +29,7 @@
                             <div class="owl-procat">
                             {% assign num_row = section.settings.num_topr | times: 1 %}
                             {% assign temp = 0 %}
-                                {% for product in collection.products limit: 15 %}
+                                {% for product in collection.products %}
                                     {% if temp == 0 %}<ul class="twopro">{% endif %}
                                         <li class="grid__item col-12 cless list-unstyled">
                                             {% render 'product-card-custom',

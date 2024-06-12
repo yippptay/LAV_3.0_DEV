@@ -5,7 +5,7 @@
 {%- paginate blog.articles by 6 -%}
 
   <div class="wbmainblog ">
-    <h1 class="heading text-left"><span>{{ blog.title | escape }}</span></h1>
+    <h1 class="heading text-start"><span>{{ blog.title | escape }}</span></h1>
 
     <div class="row blog-articles {% if section.settings.layout == 'collage' %}wbbloglist {% else %} text-center {% endif %}">
       {%- for article in blog.articles -%}

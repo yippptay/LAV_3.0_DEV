@@ -3,12 +3,12 @@
     "1641460486cee907a2": {
       "type": "slideshow",
       "blocks": {
-        "slide_y4zxKg": {
+        "slide_paMcAQ": {
           "type": "slide",
           "settings": {
-            "slidesubclr": "#fff",
-            "slideheadclr": "#fff",
-            "image": "shopify:\/\/shop_images\/image_2024_05_16T20_53_45_854Z.png",
+            "slidesubclr": "#ffffff",
+            "slideheadclr": "#ffffff",
+            "image": "shopify:\/\/shop_images\/GRDNT_-_HERO.png",
             "subtitle": "Slider Text",
             "heading": "Image slide",
             "heading_size": "large",
@@ -21,12 +21,12 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_LHmUK4": {
+        "slide_pJWX8K": {
           "type": "slide",
           "settings": {
-            "slidesubclr": "#fff",
-            "slideheadclr": "#fff",
-            "image": "shopify:\/\/shop_images\/5-2060X1120.jpg",
+            "slidesubclr": "#ffffff",
+            "slideheadclr": "#ffffff",
+            "image": "shopify:\/\/shop_images\/Hero_16_f524591e-b540-429c-9656-f5751a92b1c7.png",
             "subtitle": "Slider Text",
             "heading": "Image slide",
             "heading_size": "large",
@@ -41,28 +41,28 @@
         }
       },
       "block_order": [
-        "slide_y4zxKg",
-        "slide_LHmUK4"
+        "slide_paMcAQ",
+        "slide_pJWX8K"
       ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
         "slider_visual": "dots",
-        "pagicolor": "#f8ca23",
-        "auto_rotate": true,
+        "pagicolor": "#fd6c1e",
+        "auto_rotate": false,
         "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "",
-        "link1": "",
-        "storytitle1": "Lorem Ipsum",
-        "storysubtitle1": "Lorem Ipsum",
-        "btn1": "Lorem Ipsum",
-        "btnlink1": "",
-        "link2": "",
-        "storytitle2": "Lorem Ipsum",
-        "storysubtitle2": "Lorem Ipsum",
-        "btn2": "Lorem Ipsum",
-        "btnlink2": ""
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand",
+        "link1": "shopify:\/\/collections",
+        "storytitle1": "Women Fashion",
+        "storysubtitle1": "Up To 60% Off",
+        "btn1": "Shop Now",
+        "btnlink1": "shopify:\/\/collections",
+        "link2": "shopify:\/\/collections",
+        "storytitle2": "New Smart Mobile",
+        "storysubtitle2": "Up To 30% Off",
+        "btn2": "Shop Now",
+        "btnlink2": "shopify:\/\/collections"
       }
     },
     "165426017995948934": {
@@ -75,35 +75,35 @@
             "collection": "all-products"
           }
         },
-        "55207127-12f9-41b2-9c33-4d23406dfc20": {
+        "collection_wKNR4F": {
           "type": "collection",
           "settings": {
             "cat_name": "HARDWARE",
-            "collection": "hardware-new-arrivals"
+            "collection": "hardware"
           }
         },
-        "88651863-bda9-464b-8767-d5040855b3ef": {
+        "collection_47bA8A": {
           "type": "collection",
           "settings": {
             "cat_name": "E-LIQUID",
             "collection": "e-liquid"
           }
         },
-        "collection_PBL6bb": {
+        "collection_T6ipzm": {
           "type": "collection",
           "settings": {
             "cat_name": "DISPOSABLES",
-            "collection": "all-disposables-no-ds"
+            "collection": "disposables"
           }
         },
-        "collection_pGiVdm": {
+        "collection_yXE76F": {
           "type": "collection",
           "settings": {
             "cat_name": "HEMP",
             "collection": "hemp-products"
           }
         },
-        "collection_4ayaHa": {
+        "collection_REgXCU": {
           "type": "collection",
           "settings": {
             "cat_name": "SMOKE SHOP",
@@ -113,11 +113,11 @@
       },
       "block_order": [
         "d4fb4075-38f3-4dda-824c-ee072258804d",
-        "55207127-12f9-41b2-9c33-4d23406dfc20",
-        "88651863-bda9-464b-8767-d5040855b3ef",
-        "collection_PBL6bb",
-        "collection_pGiVdm",
-        "collection_4ayaHa"
+        "collection_wKNR4F",
+        "collection_47bA8A",
+        "collection_T6ipzm",
+        "collection_yXE76F",
+        "collection_REgXCU"
       ],
       "settings": {
         "m_title": "NEW ARRIVALS",
@@ -129,15 +129,6 @@
         "show_variants": false,
         "picker_type": "button",
         "show_colorswatch": false
-      }
-    },
-    "1645245062f3e2c3c9": {
-      "type": "offerbanner",
-      "settings": {
-        "link": "shopify:\/\/collections",
-        "storytitle": "New Collection 2022",
-        "storysubtitle": "Cum sociis natoque penatibus magnis dis parturient montes have sedss don even sociis natoque slightly the lacinia bibendum",
-        "btntxt": "Shop Now"
       }
     },
     "164524262890b378ef": {
@@ -171,120 +162,52 @@
       "settings": {
       }
     },
-    "imgbanner_dJhqf4": {
-      "type": "imgbanner",
-      "blocks": {
-        "image_tcYQ9e": {
-          "type": "Image",
-          "settings": {
-            "link": "",
-            "storytitle": "New Shoes",
-            "storysubtitle": "SPRING - SUMMER 2021",
-            "btn": "Shop Now",
-            "btnlink": ""
-          }
-        },
-        "image_9Fa3xb": {
-          "type": "Image",
-          "settings": {
-            "link": "",
-            "storytitle": "New Shoes",
-            "storysubtitle": "SPRING - SUMMER 2021",
-            "btn": "Shop Now",
-            "btnlink": ""
-          }
-        },
-        "image_HF7QnL": {
-          "type": "Image",
-          "settings": {
-            "link": "",
-            "storytitle": "New Shoes",
-            "storysubtitle": "SPRING - SUMMER 2021",
-            "btn": "Shop Now",
-            "btnlink": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_tcYQ9e",
-        "image_9Fa3xb",
-        "image_HF7QnL"
-      ],
-      "settings": {
-      }
-    },
     "164578896788ce63d3": {
       "type": "product-category",
       "blocks": {
-        "92047787-1841-44ba-ba4c-a7dda443842d": {
+        "collection_QQttww": {
           "type": "collection",
           "settings": {
-            "cat_name": "camera",
-            "collection": "camera"
+            "cat_name": "RESTOCKS",
+            "collection": "popular-restocks"
           }
         },
-        "cdaec417-8f1c-4d8c-95ef-aaf72aa2f2b9": {
+        "collection_DF6qn6": {
           "type": "collection",
           "settings": {
-            "cat_name": "cosmatic",
-            "collection": "cosmatic"
+            "cat_name": "ON SALE",
+            "collection": "on-sale"
           }
         },
-        "41046611-6580-4239-acec-499dc09b8390": {
+        "collection_MHgph4": {
           "type": "collection",
           "settings": {
-            "cat_name": "electronic",
-            "collection": "electronic"
-          }
-        },
-        "675708cd-d0d8-4bdb-85f2-ec525cb22fc8": {
-          "type": "collection",
-          "settings": {
-            "cat_name": "furniture",
-            "collection": "furniture"
-          }
-        },
-        "dd5f94f2-733f-4bd2-8335-1d28095f4bf0": {
-          "type": "collection",
-          "settings": {
-            "cat_name": "laptop",
-            "collection": "laptop"
-          }
-        },
-        "fcb20436-9fab-4cd0-b1c6-78c644d3386a": {
-          "type": "collection",
-          "settings": {
-            "cat_name": "smart tv",
-            "collection": "smart-tv"
+            "cat_name": "CLEARANCE",
+            "collection": "clearance"
           }
         }
       },
       "block_order": [
-        "92047787-1841-44ba-ba4c-a7dda443842d",
-        "cdaec417-8f1c-4d8c-95ef-aaf72aa2f2b9",
-        "41046611-6580-4239-acec-499dc09b8390",
-        "675708cd-d0d8-4bdb-85f2-ec525cb22fc8",
-        "dd5f94f2-733f-4bd2-8335-1d28095f4bf0",
-        "fcb20436-9fab-4cd0-b1c6-78c644d3386a"
+        "collection_QQttww",
+        "collection_DF6qn6",
+        "collection_MHgph4"
       ],
       "settings": {
-        "m_title": "Categories product",
+        "m_title": "POPULAR CATEGORIES",
         "num_topr": 2,
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "display_product_type": false,
-        "show_rating": true,
+        "show_rating": false,
         "show_variants": false,
         "picker_type": "button",
-        "show_colorswatch": true
+        "show_colorswatch": false
       }
     }
   },
   "order": [
     "1641460486cee907a2",
     "165426017995948934",
-    "1645245062f3e2c3c9",
     "164524262890b378ef",
-    "imgbanner_dJhqf4",
     "164578896788ce63d3"
   ]
 }

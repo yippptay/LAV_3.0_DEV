@@ -1,7 +1,7 @@
 <div class="container">
     {% if customer %}
         <div class="wbmainwish">
-            <h1 class="heading text-left"><span>{{ section.settings.wish_title }}</span></h1>
+            <h1 class="heading text-start"><span>{{ section.settings.wish_title }}</span></h1>
             <div class="row rless">
             {% paginate collections.all.products by 9999 %}
                 {% for product in collections.all.products %}

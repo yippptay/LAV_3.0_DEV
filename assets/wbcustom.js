@@ -1,49 +1,44 @@
 $(document).ready(function() {
 
-    /** Slideshow.liquid */
-    const slideshow_swiper = new Swiper('.swiper-slideshow', {
-        // Optional parameters
-        // autoplay: {
-        //     delay: 5000,
-        // },
-        edgeSwipeDetection: true,
-        effect: "fade",
-        loop: true,
-        rewind: true,
-      
-        // If we need pagination
-        pagination: {
-          el: '.swiper-pagination',
-          type: "progressbar",
-        },
-      
-        // Navigation arrows
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-      
-        // // And if we need scrollbar
-        // scrollbar: {
-        //   el: '.swiper-scrollbar',
-        // },
-    });
-
     // Tab Append
     $('.appendtabfea').appendTo('#tab-fea-0');
     $('.appendtablatest').appendTo('#tab-latest-0');
     $('.appendtabbest').appendTo('#tab-best-0');
-  
-    // Slideshow
-    $('.owl-slider').slick({
-        dots: true,
-        arrows: false,
-        infinite: false,
-        autoplay: false,
-        autoplaySpeed: 2000,
-        slidesToShow: 1,
-        slidesToScroll: 1
+
+    /* Swiper.js Slideshow.liquid */
+    const swiper = new Swiper('.swiper-slideshow', {
+        // Optional parameters
+        autoplay: {
+            delay: 5000,
+            pauseOnMouseEnter: true
+        },
+        effect: 'fade',
+        fadeEffect: {
+            crossFade: true
+        },
+        loop: true,
+        observer: true,
+        observeParents: true,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'progressbar',
+        },
     });
+  
+    // // Slideshow
+    // $('.owl-slider').slick({
+    //     dots: true,
+    //     arrows: false,
+    //     infinite: false,
+    //     autoplay: false,
+    //     autoplaySpeed: 2000,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1
+    // });
 
     // top category
     $('.owl-catt').slick({
@@ -85,12 +80,11 @@ $(document).ready(function() {
 
     // Home Tab Product  
     $('.owl-toppro,.wbnewpro').slick({
+        dots: false,
         arrows: true,
+        infinite: false,
         autoplay: false,
         autoplaySpeed: 2000,
-        dots: false,
-        infinite: false,
-        rows: 2,
         slidesToShow: 5,
         slidesToScroll: 1,
         responsive: [
