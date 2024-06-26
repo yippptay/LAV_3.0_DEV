@@ -3,12 +3,12 @@
     "1641460486cee907a2": {
       "type": "slideshow",
       "blocks": {
-        "slide_paMcAQ": {
+        "slide_fW4AFV": {
           "type": "slide",
           "settings": {
             "slidesubclr": "#ffffff",
             "slideheadclr": "#ffffff",
-            "image": "shopify:\/\/shop_images\/GRDNT_-_HERO.png",
+            "image": "shopify:\/\/shop_images\/11th_Anniversary_Version_2_copy_UPDATED.webp",
             "subtitle": "Slider Text",
             "heading": "Image slide",
             "heading_size": "large",
@@ -21,12 +21,30 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_pJWX8K": {
+        "slide_9ngcah": {
           "type": "slide",
           "settings": {
             "slidesubclr": "#ffffff",
             "slideheadclr": "#ffffff",
-            "image": "shopify:\/\/shop_images\/Hero_16_f524591e-b540-429c-9656-f5751a92b1c7.png",
+            "image": "shopify:\/\/shop_images\/Banner_-_LA_VAPOR.webp",
+            "subtitle": "Slider Text",
+            "heading": "Image slide",
+            "heading_size": "large",
+            "button_label": "Button label",
+            "link": "",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_cetYf7": {
+          "type": "slide",
+          "settings": {
+            "slidesubclr": "#ffffff",
+            "slideheadclr": "#ffffff",
+            "image": "shopify:\/\/shop_images\/TOP_SELLING-01.webp",
             "subtitle": "Slider Text",
             "heading": "Image slide",
             "heading_size": "large",
@@ -41,8 +59,9 @@
         }
       },
       "block_order": [
-        "slide_paMcAQ",
-        "slide_pJWX8K"
+        "slide_fW4AFV",
+        "slide_9ngcah",
+        "slide_cetYf7"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -52,16 +71,18 @@
         "auto_rotate": false,
         "change_slides_speed": 5,
         "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand",
+        "accessibility_info": "",
+        "image1": "shopify:\/\/shop_images\/bannner-1920x1080_copy_1.webp",
         "link1": "shopify:\/\/collections",
-        "storytitle1": "Women Fashion",
-        "storysubtitle1": "Up To 60% Off",
-        "btn1": "Shop Now",
+        "storytitle1": "",
+        "storysubtitle1": "",
+        "btn1": "",
         "btnlink1": "shopify:\/\/collections",
+        "image2": "shopify:\/\/shop_images\/840x524_2.webp",
         "link2": "shopify:\/\/collections",
-        "storytitle2": "New Smart Mobile",
-        "storysubtitle2": "Up To 30% Off",
-        "btn2": "Shop Now",
+        "storytitle2": "",
+        "storysubtitle2": "",
+        "btn2": "",
         "btnlink2": "shopify:\/\/collections"
       }
     },
@@ -137,6 +158,7 @@
         "3d73e6a6-f0fd-4f81-8745-0bf2e422c9cc": {
           "type": "Image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DESIGN4-03_1.webp",
             "link": "shopify:\/\/collections",
             "storysubtitle": "Get Up to 30% off",
             "storytitle": "New Brand Shoes",
@@ -147,6 +169,7 @@
         "823f375b-c92d-40fa-aff3-8f4fa5e834f0": {
           "type": "Image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_1_15.webp",
             "link": "shopify:\/\/collections",
             "storysubtitle": "Get Up to 50% off",
             "storytitle": "New Furniture Design",
@@ -202,12 +225,65 @@
         "picker_type": "button",
         "show_colorswatch": false
       }
+    },
+    "top_product_BAXxXR": {
+      "type": "top-product",
+      "blocks": {
+        "collection_WMCHaE": {
+          "type": "collection",
+          "settings": {
+            "cat_name": "SKWEZED",
+            "collection": "skwezed"
+          }
+        },
+        "collection_PRXBdC": {
+          "type": "collection",
+          "settings": {
+            "cat_name": "Vaporesso",
+            "collection": "vaporesso"
+          }
+        },
+        "collection_HWB7nc": {
+          "type": "collection",
+          "settings": {
+            "cat_name": "Chubbs",
+            "collection": "chubbs"
+          }
+        }
+      },
+      "block_order": [
+        "collection_WMCHaE",
+        "collection_PRXBdC",
+        "collection_HWB7nc"
+      ],
+      "settings": {
+        "m_title": "FEATURED COLLECTIONS",
+        "rows": 1,
+        "image_ratio": "adapt",
+        "display_product_type": false,
+        "show_rating": false,
+        "show_vendor": false,
+        "show_variants": false,
+        "picker_type": "button",
+        "show_colorswatch": false
+      }
+    },
+    "offerbanner_CeHnbf": {
+      "type": "offerbanner",
+      "settings": {
+        "link": "",
+        "storytitle": "",
+        "storysubtitle": "",
+        "btntxt": ""
+      }
     }
   },
   "order": [
     "1641460486cee907a2",
     "165426017995948934",
     "164524262890b378ef",
-    "164578896788ce63d3"
+    "164578896788ce63d3",
+    "top_product_BAXxXR",
+    "offerbanner_CeHnbf"
   ]
 }

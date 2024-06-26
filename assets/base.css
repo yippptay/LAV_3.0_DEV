@@ -1,3 +1,7 @@
+/* Only render when in viewport */
+img {
+    content-visibility: auto;
+}
 /* SWIPER.JS CSS START */
 .swiper {
     width: 100%;

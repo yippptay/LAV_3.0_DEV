@@ -312,7 +312,7 @@
       "cms-menu": {
         "type": "cms-menu",
         "settings": {
-          "cms_menu": "<p><a href=\"https:\/\/storego-demo.myshopify.com\/?_ab=0&_fd=0&_sc=1&preview_theme_id=120860606527\" title=\"https:\/\/storego-demo.myshopify.com\/?_ab=0&_fd=0&_sc=1&preview_theme_id=120860606527\">home<\/a><\/p><p><a href=\"\/collections\/bestseller\" title=\"Bestseller\">top product<\/a><\/p><p><a href=\"\/collections\/frontpage\" title=\"Featured Product\">special product<\/a><\/p><p><a href=\"\/blogs\/sub-blog\" title=\"Sub Blog\">blog<\/a><\/p><p><a href=\"\/pages\/about-us\" title=\"About Us\">about us<\/a><\/p><p><a href=\"\/pages\/contact-us\" title=\"Contact Us\">contact us<\/a><\/p>",
+          "cms_menu": "<p><a href=\"https:\/\/google.com\" target=\"_blank\" title=\"https:\/\/google.com\">NEW<\/a><\/p><p><a href=\"https:\/\/google.com\" target=\"_blank\" title=\"https:\/\/google.com\">E-LIQUIDS<\/a><\/p><p><a href=\"https:\/\/google.com\" target=\"_blank\" title=\"https:\/\/google.com\">HARDWARE<\/a><\/p><p><a href=\"https:\/\/google.com\" target=\"_blank\" title=\"https:\/\/google.com\">DISPOSABLES<\/a><\/p><p><a href=\"https:\/\/google.com\" target=\"_blank\" title=\"https:\/\/google.com\">SMOKE SHOP<\/a><\/p><p><a href=\"https:\/\/google.com\" target=\"_blank\" title=\"https:\/\/google.com\">HEMP<\/a><\/p><p><a href=\"https:\/\/google.com\" target=\"_blank\" title=\"https:\/\/google.com\">CURRENT DEALS<\/a><\/p>",
           "ofrtxt": "<p><a href=\"\/collections\/bestseller\" title=\"Bestseller\">GET 20% OFF on selected items<\/a><\/p>"
         }
       },
@@ -332,10 +332,11 @@
       "leftbanner": {
         "type": "leftbanner",
         "settings": {
+          "image": "shopify:\/\/shop_images\/June.webp",
           "link": "shopify:\/\/collections",
-          "storysubtitle": "up to 60% off",
-          "storytitle": "fashion footwear",
-          "btntxt": "Shop now"
+          "storysubtitle": "",
+          "storytitle": "",
+          "btntxt": ""
         }
       },
       "bestproduct": {
@@ -355,10 +356,11 @@
       "secondleftbanner": {
         "type": "secondleftbanner",
         "settings": {
+          "image": "shopify:\/\/shop_images\/LUCY_1.webp",
           "link": "shopify:\/\/collections",
-          "storysubtitle": "Up To 50% Off",
-          "storytitle": "New iPhone 11 Pro",
-          "btntxt": "Shop now"
+          "storysubtitle": "",
+          "storytitle": "",
+          "btntxt": ""
         }
       },
       "featured-blog": {
